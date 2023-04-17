@@ -21,3 +21,19 @@ TASK LIST:
 3.1. Add "filling fast" badge if less than 3 seats remaining [done]
 3.2. Use "Roboto Condensed" font to replicate same style [done]
 3.3. Use original movie images from myvue.com or your favourite provider (Hint: check get_movie_image_url.gif) [done]
+
+
+
+REPORT: 
+The Android Studio learning curve is challenging at first! The application offers a lot of features and functionalities that could distract you while you're attempting to master it, so it's important to set aside enough time to become familiar with the key elements of Android Studio, like project creation, layout development, and error debugging. 
+
+My biggest challenge was setting the correct syntax for the Kotlin language; despite being a user-friendly programming language and being very similar to javascript, it may take some time to master the skills and get used to the syntax. People with prior knowledge of other languages such as java(script) and python should find it easier to understand and learn Kotlin.
+
+Furthermore, it's crucial to have a solid understanding of the main Android APIs. Numerous APIs are available in the Android operating system and are used to implement capabilities including the camera, sensors, geolocation, and others. Understanding how to use these APIs is therefore essential to ensuring that the application functions as planned.
+
+Another problem that could develop is compatibility with different devices. Numerous devices with various screen sizes, resolutions, and hardware requirements can run the Android operating system. To ensure that the program runs well on all devices, it is crucial to test it on a variety of them.
+I've had some big issues trying to modify the "amount of seats left", and the only way to solve this, was trying to get a similar code to the internet and change the valueables and trying to adjust to my code.
+
+For newbies, publishing an application on Github can be challenging (it was a nightmare for me). Some YouTube videos that I had to watch over and over again were very helpful, but they were still unclear to me.
+
+In conclusion, using Kotlin to create an application for the first time in Android Studio may be difficult. However, these challenges may be surmounted with perseverance and training. Before releasing an application on the Google Play Store, it is essential to learn the key features of Android Studio, master the Kotlin syntax, comprehend the Android APIs, optimize application performance, test the program on multiple devices, and make sure it conforms with all requirements.
