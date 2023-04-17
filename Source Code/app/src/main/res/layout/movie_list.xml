@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:paddingBottom="20dp"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/movieImage"
+        android:src="@drawable/ic_launcher_background"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/name"
+        android:layout_below="@id/movieImage"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/robotocondensedbold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/starringText"
+        android:layout_below="@id/name"
+        android:text="Starring:    "
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/robotocondensedlight"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/starringNames"
+        android:layout_toEndOf="@id/starringText"
+        android:layout_below="@id/name"
+        android:text="*"
+        android:textColor="#BCBCBC"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/robotocondensedlight"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/runningTimeText"
+        android:layout_below="@id/starringNames"
+        android:text="Running \ntime:          "
+        android:textColor="@color/white"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/robotocondensedlight"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/runningTime"
+        android:layout_toEndOf="@id/runningTimeText"
+        android:layout_below="@id/starringNames"
+        android:text="1hr"
+        android:textColor="#BCBCBC"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/robotocondensedlight"
+        />
+
+    <ImageView
+        android:id="@+id/chair"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/runningTimeText"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/chair" />
+
+    <TextView
+        android:id="@+id/seatRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/runningTimeText"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="37dp"
+        android:layout_toEndOf="@id/chair"
+        android:text="0 "
+        android:fontFamily="@font/robotocondensedlight"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/seatDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/runningTimeText"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="37dp"
+        android:layout_toEndOf="@id/seatRemaining"
+        android:text=" seats remaining "
+        android:fontFamily="@font/robotocondensedlight"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/fillFast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/runningTimeText"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@id/chair"
+        android:fontFamily="@font/robotocondensedbold"
+        android:text="Fill Fast"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>
