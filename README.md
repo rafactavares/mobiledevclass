@@ -37,3 +37,7 @@ I've had some big issues trying to modify the "amount of seats left", and the on
 For newbies, publishing an application on Github can be challenging (it was a nightmare for me). Some YouTube videos that I had to watch over and over again were very helpful, but they were still unclear to me.
 
 In conclusion, using Kotlin to create an application for the first time in Android Studio may be difficult. However, these challenges may be surmounted with perseverance and training. it is essential to learn the key features of Android Studio, master the Kotlin syntax, comprehend the Android APIs, optimize application performance, test the program on multiple devices, and make sure it conforms with all requirements.
+
+
+
+https://youtu.be/sC3qh5ycl5o
