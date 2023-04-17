@@ -40,4 +40,20 @@ In conclusion, using Kotlin to create an application for the first time in Andro
 
 
 
+[[VIDEO LINK: https://youtu.be/sC3qh5ycl5o]]
+
+#REFERENCES:
+www.youtube.com. (n.d.). - YouTube. [online] Available at: https://youtu.be/sC3qh5ycl5o [Accessed 12 Apr. 2023].
+
+www.programiz.com. (n.d.). Kotlin Program to Compute Quotient and Remainder. [online] Available at: https://www.programiz.com/kotlin-programming/examples/compute-quotient-remainder [Accessed 13 Apr. 2023].
 https://youtu.be/sC3qh5ycl5o
+
+www.jetbrains.com. (2023). Add Remaining Branches in Kotlin. [online] Available at: https://www.jetbrains.com/idea/guide/tips/add-remaining-branches/ [Accessed 13 Apr. 2023].
+
+
+www.youtube.com. (n.d.). Learn Kotlin From Zero to Hero in 10 Hours. [online] Available at: https://www.youtube.com/watch?v=cxm9AHNDMPI [Accessed 15 Apr. 2023].
+
+
+Contend available from Dorset Moodle, posted by professor Saravanabalagi Ramachandran, including recorded classes
+‌
+‌
